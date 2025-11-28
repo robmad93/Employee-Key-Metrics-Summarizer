@@ -28,3 +28,4 @@ C:\Users\robma\Desktop\FIT_Apprenticeship\C_Sharp\ModuleAssessment\obj\Debug\net
 C:\Users\robma\Desktop\FIT_Apprenticeship\C_Sharp\ModuleAssessment\obj\Debug\net9.0\ModuleAssignment.pdb
 C:\Users\robma\Desktop\FIT_Apprenticeship\C_Sharp\ModuleAssessment\obj\Debug\net9.0\ModuleAssignment.genruntimeconfig.cache
 C:\Users\robma\Desktop\FIT_Apprenticeship\C_Sharp\ModuleAssessment\obj\Debug\net9.0\ref\ModuleAssignment.dll
+C:\Users\robma\Desktop\FIT_Apprenticeship\C_Sharp\ModuleAssessment\obj\Debug\net9.0\ModuleAssignment.sourcelink.json

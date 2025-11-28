@@ -45,24 +45,34 @@ class Program
         Console.WriteLine("Welcome to the Employee Key Metrics Summarizer (EKMS).");
         Console.WriteLine("Have you placed an employee metrics CSV file in the resources folder? (y/n)");
         string response = Console.ReadLine().Trim().ToLower(); // Allows for both uppercase and lowercase inputs to be accepted.
-        bool correctFileType = filePath.EndsWith(".csv");
+        // bool correctFileType = filePath.EndsWith(".csv"); // Somewhat redundant, as program requires CSV to run.
         while (response != "y" && response != "yes")
         {
-            Console.WriteLine("Please place a CSV file in the resources folder.");
-            Console.WriteLine("Have you placed an employee metrics CSV file in the resources folder? (y/n)");
-            response = Console.ReadLine().Trim().ToLower();
+            if (response == "n" || response == "no")
+            {
+                Console.WriteLine("Please place a CSV file in the resources folder.");
+                Console.WriteLine("Have you placed an employee metrics CSV file in the resources folder? (y/n)");
+                response = Console.ReadLine().Trim().ToLower();
+            }
+            else
+            {
+                Console.WriteLine("Invalid input.");
+                Console.WriteLine("Have you placed an employee metrics CSV file in the resources folder? (y/n)");
+                response = Console.ReadLine().Trim().ToLower();
+            }
         }
-
-        if (correctFileType != true) // Somewhat redundant, as program will not detect file change while running. 
-        {
-            Console.WriteLine("Invalid file type detected.");
-            Console.WriteLine("Please restart the program and try again");
-        }
-        else
-        {
-            Console.WriteLine("Processing file. Please wait.");
-        }
-
+        /*Somewhat redundant code, as program requires a CSV file to run. Perhaps a 'StartsWith' check could be used in future, 
+        requiring CSV files to follow a certain naming convention.*/
+        // if (correctFileType != true)
+        // {
+        //     Console.WriteLine("Invalid file type detected.");
+        //     Console.WriteLine("Please restart the program and try again");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Processing file. Please wait.");
+        // }
+        Console.WriteLine("Processing file. Please wait.");
     }
 
     public static string GetDepartment()

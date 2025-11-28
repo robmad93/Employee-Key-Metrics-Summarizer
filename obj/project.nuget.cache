@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "L5E2+jIpktQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\robma\\Desktop\\FIT_Apprenticeship\\C_Sharp\\ModuleAssessment\\ModuleAssignment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\robma\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\robma\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\robma\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\robma\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.11\\microsoft.netcore.app.host.win-x64.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

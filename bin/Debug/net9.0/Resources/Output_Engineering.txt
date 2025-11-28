@@ -1,0 +1,7 @@
+Department – Engineering
+
+Total hours worked by the Engineering department: 332
+
+Average hours worked by the Engineering department: 33.2
+
+Alice Brown from the Engineering department worked the most hours (total hours worked: 40).

@@ -1,0 +1,7 @@
+Department – Finance
+
+Total hours worked by the Finance department: 65
+
+Average hours worked by the Finance department: 32.5
+
+John Smith from the Finance department worked the most hours (total hours worked: 33).
